@@ -1,0 +1,60 @@
+@media (min-width: 300px) {
+    .section-caption {
+        font-size: 5vw;
+    }
+    .section-content-rectangle,
+    .section-content-rectangle-icon {
+        width: 10vh;
+        height: 10vh;
+    }
+    .section-content {
+        grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+    }
+    .section-content-rectangle-name {
+        bottom: 2rem;
+        left: 0.2rem;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 400px) {
+    .section-content-rectangle,
+    .section-content-rectangle-icon {
+        width: 13vh;
+        height: 13vh;
+    }
+    .section-content {
+        grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+    }
+    .section-content-rectangle-name {
+        bottom: 2rem;
+        left: 0.2rem;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 600px) {
+    .section-caption {
+        font-size: 4vw;
+    }
+    .section-content {
+        grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+    }
+}
+
+@media (min-width: 900px) {
+    .section-caption {
+        font-size: 2.5vw;
+    }
+    .section-content-rectangle,
+    .section-content-rectangle-icon {
+        width: 175px;
+        height: 175px;
+    }
+    .section-content {
+        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+    }
+    .section-content-rectangle-name {
+        font-size: 20px;
+    }
+}
